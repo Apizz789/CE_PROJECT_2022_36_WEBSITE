@@ -13,9 +13,9 @@ function Admin_home() {
                     <title>Habiness Plus</title>
                 </head>
                 <body>
-                    <div class="container">
+                    <div class="container"></div>
                         <div class="t1">
-                            <img class="t1"
+                            <img style="max-width: 180px max-height: 150px;"
                                 src="https://raw.githubusercontent.com/Apizz789/CE_PROJECT_2022_36_WEBSITE/main/test001/public/picture/LOGO2_PNG%201-2.png"
                                 alt="logo" />
                         </div>
@@ -28,11 +28,11 @@ function Admin_home() {
                             <button class="b6 btn">Profile</button>
                             <button class="b7 btn2">Logout</button>
                         </div>
-                    </div>
-
+                    
                     <div class="t2">
                         <img src="https://raw.githubusercontent.com/Apizz789/CE_PROJECT_2022_36_WEBSITE/main/test001/public/picture/background.png" alt="bg" />
                     </div>
+                    
                 </body>
             </div>
         </div>
