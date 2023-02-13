@@ -4,13 +4,15 @@ function Login() {
     return (
         <div>
 
-          
+            <img class="BG"
+                src="https://raw.githubusercontent.com/Apizz789/CE_PROJECT_2022_36_WEBSITE/main/test001/public/picture/background.png" alt="bg" />
+
             <div class="login_grid">
-            <div class="Pic_box">
-                <img
-                    src="https://raw.githubusercontent.com/Apizz789/CE_PROJECT_2022_36_WEBSITE/main/test001/public/picture/LOGO2_PNG%201-2.png"
+
+                <img class="Pic_box"
+                    src="https://raw.githubusercontent.com/Apizz789/CE_PROJECT_2022_36_WEBSITE/main/test001/public/picture/LOGO2_PNG%201.png"
                     alt="logo" />
-            </div>
+
                 <form>
                     <div class="Un_box">
                         <label class="label1">Username</label><br />
@@ -19,7 +21,7 @@ function Login() {
                     </div>
                     <div class="Pw_box">
                         <label class="label2">Password</label><br />
-                        <input class="password" type="text" id="Apassword" name="Apassword">
+                        <input class="password" type="password" id="Apassword" name="Apassword">
                         </input><br />
                     </div>
                     <input class="b1" type="submit" value="Submit" />
