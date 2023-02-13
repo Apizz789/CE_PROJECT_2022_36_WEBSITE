@@ -1,0 +1,60 @@
+.login_grid {
+    width: 200px;
+    height: 583px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: aqua; */
+}
+
+.Un_box {
+    margin-bottom: 30px;
+}
+
+.Pw_box {
+    margin-bottom: 30px;
+}
+
+.label1 {
+    margin: 0px;
+}
+
+.label2 {
+    margin: 0px;
+}
+
+.username {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #5B5858;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.password {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #5B5858;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.b1 {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    background: linear-gradient(266.48deg, #4366E2 -0.66%, #0EE5E7 95.76%);
+    border: 0.1px solid #000000;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size:medium;
+}
