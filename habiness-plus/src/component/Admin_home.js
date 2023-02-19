@@ -13,26 +13,7 @@ function Admin_home() {
                     <title>Habiness Plus</title>
                 </head>
                 <body>
-                    <div class="container"></div>
-                        <div class="t1">
-                            <img style="max-width: 180px max-height: 150px;"
-                                src="https://raw.githubusercontent.com/Apizz789/CE_PROJECT_2022_36_WEBSITE/main/test001/public/picture/LOGO2_PNG%201-2.png"
-                                alt="logo" />
-                        </div>
-                        <div class="t3">
-                            <button class="b1 btn">Announcement</button>
-                            <button class="b2 btn">Challage</button>
-                            <button class="b3 btn">Users</button>
-                            <button class="b4 btn">Comunity</button>
-                            <button class="b5 btn">Overviews</button>
-                            <button class="b6 btn">Profile</button>
-                            <button class="b7 btn2">Logout</button>
-                        </div>
-                    
-                    <div class="t2">
-                        <img src="https://raw.githubusercontent.com/Apizz789/CE_PROJECT_2022_36_WEBSITE/main/test001/public/picture/background.png" alt="bg" />
-                    </div>
-                    
+                    <div>sdfsdfsd</div>
                 </body>
             </div>
         </div>
