@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-
+import Nabbar from './component/Nabbar';
 import Admin_home from './component/Admin_home';
 import Announment from './component/Announment';
 import Community from './component/Community';
@@ -14,8 +14,11 @@ import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom
 
 function App() {
   return (
+    
     <div>
+       <Nabbar/>
       <Routes>
+     
         <Route path="/" element={<Admin_home />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Announment" element={<Announment />} />
