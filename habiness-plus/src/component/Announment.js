@@ -55,11 +55,7 @@ function Announment() {
 
         </Row>
 
-
-
         <Row id="r2">
-
-
           <Col class="aa col-5">
             <Row> <label class="text_input3">Date</label></Row>
             <Row><input type="date" class="date_box mb-2" placeholder="Enter your Title." /></Row>
