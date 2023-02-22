@@ -14,9 +14,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <BrowserRouter>
-  {/* <Nabbar/> */}
+ 
    <App />
-   <Footer/>
+
    
   </BrowserRouter>
 );

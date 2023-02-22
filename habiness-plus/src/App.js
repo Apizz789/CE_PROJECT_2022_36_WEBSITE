@@ -10,6 +10,8 @@ import Profile from './component/Profile';
 import Users from './component/Users';
 import Login from './component/Login';
 import Challenge from './component/Challenge';
+import Nabbar from './component/Nabbar';
+
 
 import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 
@@ -29,6 +31,7 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/Users" element={<Users />} />
         <Route path="/Challenge" element={<Challenge />} />
+        <Route path="/Nabbar" element={<Nabbar />} />
         
       </Routes>
     </div>

@@ -13,8 +13,8 @@ import React, { Component } from 'react';
           return (
             <nav className="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
               <div className="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <Link className="navbar-brand brand-logo" to="/"><img src={require('../../assets/images/logo.svg')} alt="logo" /></Link>
-                <Link className="navbar-brand brand-logo-mini" to="/"><img src={require('../../assets/images/logo-mini.svg')} alt="logo" /></Link>
+                {/* <Link className="navbar-brand brand-logo" to="/"><img src={require('../../assets/images/logo.svg')} alt="logo" /></Link> */}
+                {/* <Link className="navbar-brand brand-logo-mini" to="/"><img src={require('../../assets/images/logo-mini.svg')} alt="logo" /></Link> */}
               </div>
               <div className="navbar-menu-wrapper d-flex align-items-stretch">
                 <button className="navbar-toggler navbar-toggler align-self-center" type="button" onClick={ () => document.body.classList.toggle('sidebar-icon-only') }>
@@ -35,7 +35,7 @@ import React, { Component } from 'react';
                     <Dropdown alignRight>
                       <Dropdown.Toggle className="nav-link">
                         <div className="nav-profile-img">
-                          <img src={require("../../assets/images/faces/face1.jpg")} alt="user"/>
+                          {/* <img src={require("./habiness-plus/src/assets/images/faces/face1.jpg")} alt="user"/> */}
                           <span className="availability-status online"></span>
                         </div>
                         <div className="nav-profile-text">
@@ -67,7 +67,7 @@ import React, { Component } from 'react';
                         <div className="dropdown-divider"></div>
                         <Dropdown.Item className="dropdown-item preview-item" onClick={evt =>evt.preventDefault()}>
                           <div className="preview-thumbnail">
-                            <img src={require("../../assets/images/faces/face4.jpg")} alt="user" className="profile-pic"/>
+                            {/* <img src={require("../../assets/images/faces/face4.jpg")} alt="user" className="profile-pic"/> */}
                           </div>
                           <div className="preview-item-content d-flex align-items-start flex-column justify-content-center">
                             <h6 className="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
@@ -79,7 +79,7 @@ import React, { Component } from 'react';
                         <div className="dropdown-divider"></div>
                         <Dropdown.Item className="dropdown-item preview-item" onClick={evt =>evt.preventDefault()}>
                           <div className="preview-thumbnail">
-                            <img src={require("../../assets/images/faces/face2.jpg")} alt="user" className="profile-pic"/>
+                            {/* <img src={require("../../assets/images/faces/face2.jpg")} alt="user" className="profile-pic"/> */}
                           </div>
                           <div className="preview-item-content d-flex align-items-start flex-column justify-content-center">
                             <h6 className="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
@@ -91,7 +91,7 @@ import React, { Component } from 'react';
                         <div className="dropdown-divider"></div>
                         <Dropdown.Item className="dropdown-item preview-item" onClick={evt =>evt.preventDefault()}>
                           <div className="preview-thumbnail">
-                            <img src={require("../../assets/images/faces/face3.jpg")} alt="user" className="profile-pic"/>
+                            {/* <img src={require("../../assets/images/faces/face3.jpg")} alt="user" className="profile-pic"/> */}
                           </div>
                           <div className="preview-item-content d-flex align-items-start flex-column justify-content-center">
                             <h6 className="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
